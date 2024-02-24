@@ -1,0 +1,33 @@
+
+
+  .magnify{
+    transition: transform .2s;
+    
+    /*animation*/
+  
+    }
+  .magnify:hover{
+    transform :scale(1.08);
+  }
+  
+  
+
+  .residents-list {
+    list-style-type: none;
+    padding: 0;
+    
+    
+  }
+  
+  .resident-item {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .resident-item strong {
+    font-weight: bold;
+    
+  }
+  ul.a{
+    list-style-type: circle;
+  }

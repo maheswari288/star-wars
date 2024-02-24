@@ -1,0 +1,90 @@
+
+
+.planets-directory {
+ 
+  margin: 0 ;
+ 
+  padding: 20px;
+  
+
+  
+}
+
+
+
+.planet-list {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(250px, 1fr));
+  gap: 27px;
+  margin-left: 50px;
+  
+  
+}
+
+.planet-card {
+  
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  color:white;
+  box-shadow: 0  0 7px;
+  transition: background-color 0.3s;
+
+}
+
+
+.planet-card h2 {
+  margin-top: 0;
+  
+  color: red;
+ 
+}
+
+.planet-card p {
+  margin: 5px 0;
+}
+
+.pagination {
+  
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  height:90px;
+ margin-left: 440px;
+ 
+}
+
+.pagination button {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+ padding-top:  20px 25px;
+  cursor: pointer;
+  margin: 0px 5px;
+  margin-bottom: 50px;
+  justify-content: center;
+ 
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  background-color: white;
+  color:black
+}
+
+
+.magnify{
+  transition: transform .2s;
+  
+  /*animation*/
+
+  }
+.magnify:hover{
+  transform :scale(1.07);
+}
+
